@@ -1,6 +1,6 @@
 from fastapi import FastAPI, WebSocket
 from fastapi.staticfiles import StaticFiles
-from signaling_endpoint import signaling_endpoint
+from app.signaling_endpoint import signaling_endpoint
 
 app = FastAPI()
 
