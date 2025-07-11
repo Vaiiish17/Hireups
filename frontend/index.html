@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>1-to-1 Video Call</title>
+  <style>
+    body { font-family: Arial; text-align: center; background-color: #f0f2f5; margin: 0; padding: 0; }
+    h2 { margin-top: 20px; }
+    input, button { padding: 10px; margin: 10px; font-size: 16px; }
+    video { width: 45%; margin: 10px; border: 2px solid #444; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h2>🔗 Join Video Meeting</h2>
+  <input type="text" id="meetingId" placeholder="Enter Meeting ID" />
+  <button onclick="joinMeeting()">Join</button>
+  <br>
+  <video id="localVideo" autoplay muted playsinline></video>
+  <video id="remoteVideo" autoplay playsinline></video>
+
+  <script src="script.js"></script>
+</body>
+</html>
